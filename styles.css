@@ -1,0 +1,424 @@
+body 
+{
+  background-color:#e6e2d9;
+  font-family: "Livvic";
+}
+
+/* Header */
+ul > li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+li {
+  padding: 0px 10px;
+  font-family: "Secular One";
+  color: #488589;
+}
+
+header
+{
+  display: flex;
+  margin: 2% 5% 2%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.horizontal-logo
+{
+  padding-top: 20px;
+  align-self: flex-end;
+}
+
+.header-menu
+{
+  align-self: flex-start;    
+}
+
+.menu-button 
+{
+  padding: 10px 20px;
+}
+
+/* Slides */
+.slides-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("assets/adereço\ logo\ fundo.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+/* Hide the images by default */
+.mySlides {
+  /*display: none;*/
+}
+
+.slide-presentation
+{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.half-slide
+{
+  display: flex;
+  flex-direction: column;
+  font-family: "Livvic";
+}
+
+.half-slide span
+{
+  font-size: 25px;
+  color: #638984
+}
+
+.half-slide h1{
+  font-size: 15px;
+  font-weight: lighter;
+  color: #626161;
+}
+
+.half-image{
+  background-image: url("/assets/adereço\ logo.png");
+  background-repeat: no-repeat;
+  background-position-x: 9rem;
+}
+
+.half-image img{
+  width: 80%;
+  margin-top: 40px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  /*margin-top: -22px;*/
+  margin: 0% 10%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(50, 50, 50, 0.2);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #488589;
+  border: 1px solid #eee;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Estimate*/
+.estimate 
+{
+  background-image: url("assets/imagem\ painel\ ensolarado.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
+.estimate-container
+{
+  color: #908f90;
+  text-align: center;
+  margin: 0% 10%;
+}
+
+.estimate-title
+{
+  color: #de952d;  
+}
+
+.estimate-form 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-contact, .costs-location 
+{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+label
+{
+  padding: 10px;  
+}
+
+input
+{
+  border: 3px solid #488589;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #908f90;
+  outline: none;
+}
+
+.form-fields
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.estimate-form input{
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+.personal-contact div:nth-child(1) input{
+  width: 300px;
+} 
+.personal-contact div:nth-child(2) input{
+  width: 210px;
+} 
+.costs-location  div:nth-child(1) input{
+  width: 210px !important;
+} 
+
+
+.name input
+{
+  flex-grow: 2;
+}
+
+
+.estimate-button
+{
+  border: #de952d;
+  border-radius: 15px;
+  background-color: #de952d;
+  color: #e6e2d9;
+  margin: 2%;
+  padding: 1%;
+}
+
+.estimate-results
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20%;
+}
+
+.result-box
+{
+  background-color: #488589;
+  border: 2px solid #488589;
+  border-radius: 100%;
+  color: #e6e2d9;
+  padding: 20px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  /**/
+  margin-right: 0.5rem;
+}
+
+/*FAQ*/
+.faq-title
+{
+  background-image: url("assets/logo\ duplicado\ fundo\ perguntas\ frequentes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  color:#de952d;
+  font-size: 36px;
+  font-weight: 100;
+  text-align: center;
+  width: auto;
+}
+
+/* Serviços */
+.service-container{
+  display: flex;
+  justify-content: center;
+}
+
+.services-subtitle {
+  text-align: center;
+  color:#908f90;
+}
+
+.services-examples{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 200px;
+}
+
+.service-info{
+  background-color: #908f90;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.contact
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("assets/forma\ fundo\ amarela.png");
+  background-position-x: left;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;  
+}
+
+.contact-info
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Livvic";
+  font-weight: 800;
+  color: #653a02;
+  font-size: 25px;
+}
+
+.contact-text
+{
+  margin: 10px 0px;
+}
+
+.contact-sub
+{
+  font-size: 12px;
+}
+
+.contact-us
+{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.contact-image img
+{
+  background-image: url("/assets/pattern\ fundo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 20%;
+  background-size: contain;
+  width: 75%;
+}
+
+footer
+{
+  background-image: url("/assets/Semi\ circulo\ rodapé.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+}
+
+.footer-logo
+{
+  width: 5%;
+}
+
+.footer-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 75px;
+  font-family: "Livvic";
+  color: #ffffff;
+}
+
+.footer-media
+{
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.media-container
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.media-container div
+{
+  display: flex;
+  justify-content: center;
+  background-color: #de952d;
+  border: 1px solid #de952d;
+  border-radius: 100%;
+  padding: 10px;
+  text-align: center;  
+  margin: 5px 0px 0px 10px;
+  width: 15px;
+  height: 15px;
+}

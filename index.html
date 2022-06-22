@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Livvic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular+One">
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>ECOA - Energia Fotovoltaica</title>
+</head>
+<body>
+    <section>
+        <header>
+            <img class="horizontal-logo" src="assets/LOGOTIPO HORIZONTAL.png"/>
+            <nav class="header-menu">
+                <ul class="menu-itens">
+                    <li><span>INICIO</span></li>
+                    <li><span>ORÇAMENTO</span></li>
+                    <li><span>FAQ</span></li>
+                    <li><span>NOSSOS SERVIÇOS</span></li>
+                    <li><span>CONTATOS</span></li>
+                    <li><img class="menu-button" src="assets/MENU.png"/></li>
+                </ul>
+            </nav>            
+        </header>
+        <main>
+        <!--Início-->
+            <section class="presentation">
+            <!-- Slides com apresentação -->
+                <div class="slides-container">
+                    <!-- Previous button -->
+                    <a class="prev" onclick="slideNav(-1)">
+                        <img src="assets/seta esquerda.png">
+                    </a>
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="slide-presentation">
+                            <div class="half-slide">
+                                <img src="/assets/Energia limpa.png" width="75%">
+                                <span>É o futuro e já está no nosso presente</span>
+                                <h1>
+                                    Faça parte das famílias e empresas que ecoam um futuro<br>
+                                    responsável, com baixo custo e alto benefício, gerando energia<br>
+                                    limpa e diminuindo gastos no orçamento.
+                                </h1>
+                            </div>
+                            <div class="half-image">
+                                <img src="/assets/painel.png">
+                            </div>
+                        </div>
+                        <!-- The dots/circles -->                    
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                        </div> 
+                    </div>
+                
+                    <!-- Next button -->                    
+                    <a class="next" onclick="slideNav(1)">
+                        <img src="assets/seta direita.png">
+                    </a>
+                </div>
+            </section>
+        <!--Orçamento-->
+        <section class="estimate">
+            <div class="estimate-container">
+                <!-- Titulo -->
+                <h2 class="estimate-title">Quer saber quanto pode economizar?</h2>
+                <!-- Subtitulo -->
+                <h3 class="estimate-subtitle">Preencha os dados e simule o quanto pode ser a sua economia.</h3>
+                <!-- Campos para preenchimento dos dados -->
+                <form class="estimate-form">
+                    <div class="personal-contact">
+                        <div class="form-fields name">
+                            <label>Nome e sobrenome</label>
+                            <input>
+                        </div>
+                        <div class="form-fields">
+                            <label>Celular</label>
+                            <input>
+                        </div>
+                    </div>
+                    <div class="costs-location">
+                        <div class="form-fields">
+                            <label>Gasto médio mensal</label>
+                            <input>
+                        </div>
+                        <!-- Checar possibilidade de carregamento de lista de cidades e estados -->
+                        <div class="form-fields">
+                            <label>Estado</label>
+                            <input>
+                        </div>
+                        <div class="form-fields">
+                            <label>Cidade</label>
+                            <input>
+                        </div>
+                    </div>
+                </form>
+                <!-- Botão para simulação -->
+                <div class="simulation">
+                    <!-- Verificar botão simular como imagem -->
+                    <button class="estimate-button">S I M U L A R</button>
+                </div>
+            </div>
+                <!-- Campos animados com as informações da simulação (semelhante ao load, 1 ciclo) -->
+            <div class="estimate-results">
+                <div class="result-box">
+                    <p>Potência<br>estimada para<br>geração<br>de energia.
+                    Potência total</p>
+                </div>
+                <div class="result-box">
+                    <p>Área estimada<br>para a<br>instalação dos<br>equipamentos.
+                    Área útil</p>
+                </div>
+                <div class="result-box">
+                    <p>Tempo<br>estimado para<br>o retorno do<br>investimento.
+                    Payback</p>
+                </div>
+                <div class="result-box">
+                    <p>Valor estimado<br>de retorno ao<br>final de 25 anos.
+                    Retorno</p>
+                </div>
+                <div class="result-box">
+                    <p>Valor estimado<br>para a execução do<br>projeto.<br>
+                    Orçamento</p>
+                </div>
+            </div>
+        </section>
+        <!--FAQ-->
+        <section class="faq">
+            <!-- Titulo -->
+            <h2 class="faq-title">Perguntas Frequentes</h2>
+            <!-- Sliders colapsaveis com as informações (exemplo que havia passado para Thais) -->
+            
+        </section>
+        <!--Nossos Serviços-->
+        <section class="our-services">
+            <!-- Imagem e titulo -->
+            <div class="service-container">
+                <img class="services-title" src="assets/nossos serviços.png"/>
+            </div>
+            <!-- Texto -->
+            <h3 class="services-subtitle">
+                Nossa equipe oferece serviço geral para sistemas solares <br>
+                residenciais, sistemas de backup de baterias, bem como remoções/re-instalações <br>
+                para permitir qualquer trabalho ou substituição do telhado.
+            </h3>
+            <div class="services-examples">
+                <!-- Montar listas com tipos de serviços prestados -->
+                <div class="box-columns">
+                    <div class="service-info">Inspeção do sistema</div>
+                    <div class="service-info">Soluções para o sistema off-grid</div>
+                    <div class="service-info">Monitoramento de problemas</div>
+                    <div class="service-info">Inspeção do sistema de baterias</div>
+                </div>
+                <div class="box-columns">
+                    <div class="service-info">Manutenção do sistema de baterias</div>
+                    <div class="service-info">Soluções de problemas no inversor</div>
+                    <div class="service-info">Reparo devido à causas naturais</div>
+                    <div class="service-info">Remoção e substituição de matrizes</div>
+                </div>
+            </div>
+        </section>
+        <!--Contato-->
+        <section class="contact">
+            <!-- Informações -->
+            <div class="contact-info">
+                <span class="contact-text">Entre em contato conosco</span>
+                <span class="contact-sub">Retire suas dúvidas, agende uma visita<br>ou faça um orçamento.</span>
+                <div class="contact-us">
+                    <span>16 99612-2157</span>
+                    <span>contato@ecoasolar.com</span>
+                </div>                
+            </div>
+            <!-- Imagem ao fundo -->
+            <div class="contact-image">
+                <img src="assets/homem asiático peb.png">
+            </div>
+        </section>
+        </main>
+        <footer>
+        <!-- Rodapé -->
+        <!-- Logo -->
+            <img class="footer-logo" src="/assets/logo amarelo rodapé.png"/>
+            <div class="footer-container">
+                <!-- Texticulo -->
+                <div class="footer-text">
+                    <span>
+                        Acreditamos que a energia limpa é o futuro e já está no nosso<br>presente, 
+                        e que mais que gerar economia, ela é a solução para<br>continuar trazendo 
+                        a modernidade para as futuras gerações.<br> Ecoa é reflexo de energia eco, 
+                        de economia no bolso e de<br> responsabilidade com o futuro.
+                    </span>
+                </div>
+                <div class="footer-media">
+                <!-- Redes sociais -->
+                <span>Acesse nossas<br>redes sociais!</span>
+                    <div class="media-container">
+                        <div>
+                            <img src="/assets/Facebook.png"/>
+                        </div>
+                        <div>
+                            <img src="/assets/Instagram.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>

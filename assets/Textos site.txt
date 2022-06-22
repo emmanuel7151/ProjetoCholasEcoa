@@ -1,0 +1,121 @@
+*MENU*
+Secular one - Regular - tamanho 4 - Espaçamento entre letras 10 - #488589
+"INÍCIO | ORÇAMENTO | FAQ | NOSSOS SERVIÇOS | CONTATO"
+
+
+*TEXTO SLIDE TOPO SUBTÍTULO*
+Livvc - Recular - Tamanho 7,7 - Espaçamento 0 - #638984
+"É o futuro e já está no nosso presente"
+
+*TEXTO CORRIDO SLIDE TOPO*
+Livvc - Recular - Tamanho 4,28 - Espaçamento entre letras 15 - Espaçamento entre linhas 8,02 - #626161
+"É o futuro e já está no nosso presente"
+
+*TÍTULO SIMULADOR*
+Livvc - Semibold - Tamanho 11,32 - Espaçamento entre letras 0 - #de952d
+"Quer saber quanto pode economizar?"
+
+*SUBTÍTULO SIMULADOR*
+Livvc - Medium - Tamanho 4,5 - Espaçamento entre letras 15 - #908f90
+"Preencha os dados e simule o quanto pode ser a sua ecônomia."
+
+*TÍTULOS DOS CAMPOS DE PREENCHIMENTO*
+Livvc - Medium - Tamanho 5,18 - Espaçamento entre letras 50 - #908f90
+"Nome e sobrenome | Celular | Gasto médio mensal | Estado | Cidade"
+
+*TEXTO DOS CAMPOS DE PREENCHIMENTO*
+Livvc - Medium - Tamanho 5,18 - Espaçamento entre letras 50 - #bebebe
+"Fulano de Tal | (00) 9 9999-9999 | R$000,00 | UF | Escolha uma cidade"
+
+*BOTÃO SIMULAR*
+Livvc - Medium - Tamanho 6,3 - Espaçamento entre letras 180 - #e6e2d9
+"SIMULAR"
+
+*TÓPICOS DO SIMULADOR*
+PRIMEIRO
+Livvc - Regular - Tamanho 4,34 - Espaçamento entre letras 0 - #e6e2d9
+"Potência estimada para geração de energia."
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #405956
+"Potência Total"
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #d89433
+"0,90kWp"
+
+SEGUNDO
+Livvc - Regular - Tamanho 4,34 - Espaçamento entre letras 0 - #e6e2d9
+"Área estimada para a instalação dos equipamentos."
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #405956
+"Área útil"
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #d89433
+"5m²"
+
+TERCEIRO
+Livvc - Regular - Tamanho 4,34 - Espaçamento entre letras 0 - #e6e2d9
+"Tempo estimado para o retorno do investimento."
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #405956
+"Payback"
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #d89433
+"6 anos e 4m"
+
+
+QUARTO
+Livvc - Regular - Tamanho 4,34 - Espaçamento entre letras 0 - #e6e2d9
+"Valor estimado de retorno ao final de 25 anos."
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #405956
+"Retorno"
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #d89433
+"R$ 84.447,22"
+
+
+QUINTO
+Livvc - Regular - Tamanho 4,34 - Espaçamento entre letras 0 - #e6e2d9
+"Valor estimado para execução do projeto."
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #405956
+"Orçamento"
+Livvc - Bold - Tamanho 4,34 - Espaçamento entre letras 0 - #d89433
+"R$ 9.751,59"
+
+
+*PERGUNTAS FREQUENTES*
+TÍTULO
+Livvc - SemiBold - Tamanho 6 - Espaçamento entre letras 0 - #000000
+"Como saber se meus painéis solares estão funcionando?"
+
+TEXTO CORRIDO
+Livvc - SemiBold - Tamanho 3,42 - Espaçamento entre letras 15 - Espaçamento entre linhas 5 - #000000
+"Cada tipo de sistema opera um pouco diferente, mas a melhor maneira de confirmar que sua energia solar está produzindo é acessar a plataforma de monitoramento do fabricante do seu sistema, ou seja, Enphase, SMA, SolarEdge, SunPower. 
+
+Se o sistema não estiver conectado à internet, muitas vezes há um display, ou outro indicador, geralmente LED, na unidade primária para verificar a falha de produção ou do sistema. Outro método é verificar o medidor de utilidades. Os medidores PG&E indicarão se você está alimentando a rede mostrando "Recebido", ou se você está a comprando poder, ele mostrará "Entregue". "
+
+*SUBTÍTULO NOSSOS SERVIÇOS*
+Livvc - Regular - Tamanho 6 - Espaçamento entre letras 0 - Espaçamento entre linhas Auto - #908f8f
+Nossa equipe oferece serviço geral para sistemas solares 
+residenciais, sistemas de backup de baterias, bem como remoções/re-instalações para permitir qualquer trabalho ou substituição do telhado.
+
+*TÓPICOS*
+Livvc - Regular - Tamanho 6,92 - Espaçamento entre letras 0 - ffffff
+"Inspeção do sistema"
+"Soluções para o sistema off-grid"
+"Monitoramento de problemas"
+"Inspeção do sistema de baterias"
+"Manutenção do sistema de baterias"
+"Solução de problemas devido ao inversos"
+"Reparos devido à causas naturais"
+"Remoção e substituição de matrizes"
+
+*CONTATOS*
+Livvc - Bold - Tamanho 9,14 - Espaçamento entre letras 100 - #653a02
+"Entre em contato conosco"
+Livvc - medium - Tamanho 4 - Espaçamento entre letras 15 - Espaçamento entre linhas 6,41 - #653a02
+"Retire suas dúvidas, agende uma visita ou faça um orçamento."
+Livvc - Bold - Tamanho 9,14 - Espaçamento entre letras 100 - #653a02
+"16 99612-2157
+contato@ecoasolar.com "
+
+*RODAPÉ*
+TEXTO CORRIDO
+Livvc - Regular - Tamanho 5 - Espaçamento entre letras 0 - Espaçamento entre linhas Auto - #ffffff
+"Acreditamos que a energia limpa é o futuro e já está no nosso presente,  e que mais que gerar economia, ela é a solução para continuar trazendo a modernidade para as futuras gerações. Ecoa é reflexo de energia eco, de economia no bolso e de responsabilidade com o futuro."
+
+REDES SOCIAIS
+Livvc - Medium - Tamanho 8 - Espaçamento entre letras 0 - Espaçamento entre linhas 7 - #ffffff
+"Acesse nossas redes sociais"
